@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>조립제법 계산기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>조립제법 (Synthetic Division)</h1>
+
+<p>계수와 나누는 식을 입력하세요</p>
+<p>예: 2x+1, x-1, 1/2 모두 가능</p>
+
+<div class="container">
+    <input id="coeffs" placeholder="계수 입력 (예: 2,5,0,1)">
+    <input id="divisor" placeholder="나누는 식 (예: 2x+1 또는 1/2)">
+    <br>
+    <button onclick="calculate()">계산</button>
+</div>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
